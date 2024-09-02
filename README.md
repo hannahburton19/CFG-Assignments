@@ -21,5 +21,10 @@
 ![pull request merged screenshot 3](https://github.com/hannahburton19/CFG-Assignments/blob/main/Pull%20request%20merged.png?raw=true)
 
 > [!IMPORTANT]
-> I have also added a .gitignore file to my repo - this is a file that lists all of the file types that I want other people to ignore when I share my repo with them (in this case, I've asked that all .png files be ignored as they're screenshots for this assignment!)
+> I have added a .gitignore file to my repo - this is a file that lists all of the file types that I want other people to ignore when I share my repo with them (in this case, I've asked that all .png files be ignored as they're screenshots for this assignment!)
+
+- [x] create requirements.txt file
+- [x] briefly explain what it's used for (it's to list all the dependencies that a Python project will need, so that others can run your code correctly)
+- [ ] learn Python
+
 
