@@ -1,7 +1,9 @@
 //Practicing what we learnt in the first JavaScript class!
 const greeting = "Hi";
-const name = "Hannah";
+const name = prompt("Enter name here 😊");
 
-console.log(greeting + " " + name);
+const greetUser = greeting + " " + name + "🤩";
+console.log(greetUser);
+
 
 
