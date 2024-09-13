@@ -1,0 +1,44 @@
+html {
+  background-color: #e6e8ff;
+}
+
+h1 { 
+margin: 0;
+padding: 20px 0;
+color: #091cd6;
+text-shadow: 2px 2px 1px white;
+font-family: "Calibri";
+font-size: 45px
+}
+
+
+button { 
+color:#091cd6;
+font-family: "Calibri";
+font-size: 30px;
+text-shadow: 1px 1px 0.5px black,
+font-style: bold}
+
+h2 {
+  font-family: "Calibri";
+    color: #091cd6;
+    text-shadow: 2px 2px 1px white
+}
+
+h3 {
+  font-family: "Calibri";
+    color: #091cd6;
+    }
+
+li {
+  font-family: "Calibri";
+    color: #091cd6;
+}
+
+.hidden {
+  display: none;
+}
+
+.question {
+  display: none;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Baldurs Gate 3 Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <h1>Which Baldur's Gate 3 Character Are You? 🧙‍♂️🫵</h1>
+
+  <button id="startQuiz">Take the quiz!</button> <br>
+  <br>
+  <img src="https://assetsio.gnwcdn.com/baldur's-gate-3-art.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" alt="Baldurs Gate 3 characters" style="width:500px;height:325px" id="startImage">
+
+  <!-- Question 1 -->
+  <div id="Question1" class="hidden question">
+    <h2>Question 1:</h2>
+    <h3>What's your signature move in battle?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q1Ans1" value="Answer 1"><label for="Q1Ans1">Launch yourself into the heart of the enemy, cutting them down with pure, brutal force.</label></li>
+      <li><input type="checkbox" id="Q1Ans2" value="Answer 2"><label for="Q1Ans2">Boost your allies with a powerful healing spell.</label></li>
+      <li><input type="checkbox" id="Q1Ans3" value="Answer 3"><label for="Q1Ans3">Lure the enemy with your charm and suck their blood to gain more strength.</label></li>
+    </ol>
+  </div> <br>
+
+  <!-- Question 2 -->
+  <div id="Question2" class="hidden question">
+    <h2>Question 2:</h2>
+    <h3>What's your problem solving style?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q2Ans1" value="Answer 1"><label for="Q2Ans1">Brute force!</label></li>
+      <li><input type="checkbox" id="Q2Ans2" value="Answer 2"><label for="Q2Ans2">Stealth and secrecy</label></li>
+      <li><input type="checkbox" id="Q2Ans3" value="Answer 3"><label for="Q2Ans3">Charm and deception</label></li>
+    </ol>
+  </div> <br>
+
+  <!-- Question 3 -->
+  <div id="Question3" class="hidden question">
+    <h2>Question 3:</h2>
+    <h3>What's your biggest weakness?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q3Ans1" value="Answer 1"><label for="Q3Ans1">Impatience - sometimes you're a bit too eager to get confrontational</label></li>
+      <li><input type="checkbox" id="Q3Ans2" value="Answer 2"><label for="Q3Ans2">Distrust of others - you don't open up easily to anyone</label></li>
+      <li><input type="checkbox" id="Q3Ans3" value="Answer 3"><label for="Q3Ans3">Selfishness - your needs come first above everything.</label></li>
+    </ol>
+  </div> <br>
+
+  <!-- Question 4 -->
+  <div id="Question4" class="hidden question">
+    <h2>Question 4:</h2>
+    <h3>What’s your relationship with your companions like?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q4Ans1" value="Answer 1"><label for="Q4Ans1">You respect them, but they must earn your loyalty.</label></li>
+      <li><input type="checkbox" id="Q4Ans2" value="Answer 2"><label for="Q4Ans2">You're cautious and keep your distance.</label></li>
+      <li><input type="checkbox" id="Q4Ans3" value="Answer 3"><label for="Q4Ans3">You appreciate their help, but you value your independence.</label></li>
+    </ol>
+  </div> <br>
+
+  <!-- Question 5 -->
+  <div id="Question5" class="hidden question">
+    <h2>Question 5:</h2>
+    <h3>What would you do if you found a powerful artifact?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q5Ans1" value="Answer 1"><label for="Q5Ans1">Claim it as your own and use it to become stronger</label></li>
+      <li><input type="checkbox" id="Q5Ans2" value="Answer 2"><label for="Q5Ans2">Keep it a secret - no one needs to know</label></li>
+      <li><input type="checkbox" id="Q5Ans3" value="Answer 3"><label for="Q5Ans3">Sell it or exploit it for your own gain - why not have a bit of fun?</label></li>
+    </ol>
+  </div> <br>
+
+  <!-- Question 6 -->
+  <div id="Question6" class="hidden question">
+    <h2>Question 6:</h2>
+    <h3>What motivates you the most on a dangerous adventure?</h3>
+    <ol>
+      <li><input type="checkbox" id="Q6Ans1" value="Answer 1"><label for="Q6Ans1">Glory and strength – you want to prove your worth in battle!</label></li>
+      <li><input type="checkbox" id="Q6Ans2" value="Answer 2"><label for="Q6Ans2">Secrets and shadows – some things are best left hidden...</label></li>
+      <li><input type="checkbox" id="Q6Ans3" value="Answer 3"><label for="Q6Ans3">Self-preservation – you'll do whatever it takes to survive.</label></li>
+    </ol>
+  </div> <br>
+
+  <button id="continueQuiz" class="hidden">Next question...</button>
+  <button id="finishQuiz" class="hidden">Click here to find out your result!</button>
+
+  <div id="result" class="hidden">
+    <h2 id="resultName"></h2>
+    <img id="resultImage" src="" alt="Character Image">
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
